@@ -1,0 +1,7 @@
+vs-code use emmet
+
+// React.createElement returns me javascript object
+    - it takes three arguments first tag name, second attributes and third children , if there is multiple child elements passed it in array
+// root.render() method converts js object to h1 element of html and render on the browser
+// you can use react library just small portion of the html, its only work on that element which is mark as root element by ReactDOM.createRoot(<root element>). Thats why it is library we cant call it as framework
+// anything inside the root tag will be replaced by the root.render() method and anything outside the root will be load on browser as it is.
